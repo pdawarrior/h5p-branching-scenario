@@ -1,0 +1,127 @@
+﻿{
+  "semantics": [
+    {
+      "label": "Trình biên tập kịch bản phân nhánh",
+      "fields": [
+        {
+          "label": "Tiêu đề"
+        },
+        {
+          "label": "Màn hình bắt đầu",
+          "fields": [
+            {
+              "label": "Tiêu đề màn hình bắt đầu",
+              "placeholder": "Tiêu đề cho khóa học của bạn"
+            },
+            {
+              "label": "Phụ đề màn hình bắt đầu",
+              "placeholder": "Chi tiết về khóa học"
+            },
+            {
+              "label": "Hình ảnh màn hình bắt đầu"
+            }
+          ]
+        },
+        {
+          "label": "Danh sách màn hình kết thúc",
+          "fields": {
+            "label": "Màn hình kết thúc",
+            "fields": [
+              {
+                "label": "Tiêu đề"
+              },
+              {
+                "label": "Văn bản"
+              },
+              {
+                "label": "Hình ảnh"
+              },
+              {
+                "label": "Điểm",
+                "description": "Điểm sẽ được gửi đến bất kỳ LMS, LRS hoặc bất kỳ dịch vụ được kết nối nào khác nhận được điểm từ H5P cho người dùng đạt đến kịch bản kết thúc"
+              },
+              {
+                "label": "ID nội dung"
+              }
+            ]
+          }
+        },
+        {
+          "label": "Danh sách nội dung kịch bản phân nhánh",
+          "entity": "content",
+          "field": {
+            "fields": [
+              {},
+              {
+                "label": "Hiển thị tiêu đề nội dung trong chế độ xem",
+                "description": "Nếu được chọn, người dùng sẽ thấy tiêu đề nội dung ở thanh trên cùng bên trên nội dung này"
+              },
+              {
+                "label": "ID nội dung tiếp theo (màn hình kết thúc được xác định bằng số âm)"
+              },
+              {
+                "label": "Phản hồi",
+                "fields": [
+                  {
+                    "label": "Tiêu đề phản hồi"
+                  },
+                  {
+                    "label": "Văn bản phản hồi"
+                  },
+                  {
+                    "label": "Hình ảnh phản hồi"
+                  },
+                  {
+                    "label": "Điểm cho kịch bản này",
+                    "description": "Điểm số sẽ được gửi đến bất kỳ LMS, LRS hoặc bất kỳ dịch vụ được kết nối nào khác nhận được điểm từ H5P cho người dùng đạt được kịch bản này"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "label": "Tùy chọn chấm điểm",
+          "fields": [
+            {
+              "label": "Tùy chọn chấm điểm",
+              "description": "Chọn loại cho điểm",
+              "options": [
+                {
+                  "label": "Đặt điểm tĩnh cho từng kịch bản kết thúc"
+                },
+                {
+                  "label": "Tính điểm động từ câu trả lời của người dùng"
+                },
+                {
+                  "label": "Không chấm điểm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Bản địa hóa",
+          "fields": [
+            {
+              "label": "Văn bản cho nút trên màn hình bắt đầu",
+              "default": "Bắt đầu khóa học"
+            },
+            {
+              "label": "Văn bản cho nút trên màn hình kết thúc",
+              "default": "Khởi động lại khóa học"
+            },
+            {
+              "label": "Văn bản cho nút trên mỗi màn hình thư viện",
+              "default": "Tiếp tục"
+            },
+            {
+              "label": "Nhãn cho điểm trên màn hình cuối",
+              "default": "Điểm của bạn:"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
